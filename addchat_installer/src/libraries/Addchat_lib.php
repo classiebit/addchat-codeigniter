@@ -477,6 +477,12 @@ class Addchat_lib
 			header("HTTP/1.1 200 OK");
 			die();
 		}
+
+        if(DEMO_MODE === 1)
+        {
+       		$data = array('status' => false, 'response'=> 'DEMO MODE');
+			$this->format_json($data);
+		}
 		
 		/* Validate form input */
 		$this->AC_LIB->form_validation

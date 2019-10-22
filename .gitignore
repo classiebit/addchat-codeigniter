@@ -1,15 +1,3 @@
-# Codeigniter
-.htaccess
-/install
-/application/sessions/*
-/application/logs/*
-/vendor
-composer.lock
-
 # OSX Specific files
 .DS_Store
 /__MACOXS
-
-# custom
-application/config/dev
-application/config/live
