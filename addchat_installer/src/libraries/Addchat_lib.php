@@ -478,7 +478,7 @@ class Addchat_lib
 			die();
 		}
 
-        if(DEMO_MODE === 1)
+        if($this->demo_mode())
         {
        		$data = array('status' => false, 'response'=> 'DEMO MODE');
 			$this->format_json($data);
@@ -767,6 +767,18 @@ class Addchat_lib
 		echo json_encode($data);
 		exit;
 	}
+
+    /**
+     *  Detect demo mode
+    */
+    private function demo_mode()
+    {
+        $domain = strtolower($_SERVER['SERVER_NAME']);
+        if (strpos($domain, 'classiebit.com') !== FALSE || strpos($domain, 'addchat-codeigniter.test') !== FALSE)
+            return true;
+        
+        return FALSE;
+    }
 
 
 }

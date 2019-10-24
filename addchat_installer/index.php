@@ -202,9 +202,12 @@ if($_POST && INSTALL_MODE === 1) {
     <br><br>
     <pre class="d-code rounded-lg">
     <code data-lang="php">
-    <strong>
+        <strong>
         &lt;!-- 3. AddChat JS --&gt;
-        &lt;script src="&lt;?php echo base_url('<?php echo str_replace('/', '', $_POST['assets']) ?>/addchat/js/addchat.min.js') ?&gt;"&gt;&lt;/script&gt;
+        &lt;!-- Modern browsers --&gt;
+        &lt;script  type="module" src="&lt;?php echo base_url('<?php echo str_replace('/', '', $_POST['assets']) ?>/addchat/js/addchat.min.js') ?&gt;"&gt;&lt;/script&gt;
+        &lt;!-- Fallback support for Older browsers --&gt;
+        &lt;script nomodule src="&lt;?php echo base_url('<?php echo str_replace('/', '', $_POST['assets']) ?>/addchat/js/addchat-legacy.min.js') ?&gt;"&gt;&lt;/script&gt;
         </strong>
 
     &lt;/body&gt;
@@ -249,7 +252,10 @@ if($_POST && INSTALL_MODE === 1) {
 
         <strong>
         &lt;!-- 3. AddChat JS --&gt;
-        &lt;script src="&lt;?php echo base_url('<?php echo str_replace('/', '', $_POST['assets']) ?>/addchat/js/addchat.min.js') ?&gt;"&gt;&lt;/script&gt;
+        &lt;!-- Modern browsers --&gt;
+        &lt;script  type="module" src="&lt;?php echo base_url('<?php echo str_replace('/', '', $_POST['assets']) ?>/addchat/js/addchat.min.js') ?&gt;"&gt;&lt;/script&gt;
+        &lt;!-- Fallback support for Older browsers --&gt;
+        &lt;script nomodule src="&lt;?php echo base_url('<?php echo str_replace('/', '', $_POST['assets']) ?>/addchat/js/addchat-legacy.min.js') ?&gt;"&gt;&lt;/script&gt;
         </strong>
 
     &lt;/body&gt;
