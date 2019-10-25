@@ -548,7 +548,7 @@ class Addchat_lib
 		$data['footer_url']	        = $this->AC_LIB->input->post('footer_url');
 		$data['admin_user_id']		= $this->AC_LIB->input->post('admin_user_id');
 		$data['pagination_limit']	= $this->AC_LIB->input->post('pagination_limit');
-		$data['img_upld_pth']		= $this->AC_LIB->input->post('img_upload_path');
+		$data['img_upload_path']	= $this->AC_LIB->input->post('img_upload_path');
 		$data['assets_path']		= $this->AC_LIB->input->post('assets_path');
 		$data['users_table']		= $this->AC_LIB->input->post('users_table');
 		$data['users_col_id']		= $this->AC_LIB->input->post('users_id');
