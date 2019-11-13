@@ -20,6 +20,6 @@ $config['addchat']			=  (object) [
     | 
     |
     */
-	'session_user_id'     => 'user_id',
+	'session_user_id'     => "%LOGGED_USER_ID%",
 
 ];
