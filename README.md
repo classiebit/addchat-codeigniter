@@ -36,7 +36,7 @@ You get full source-code, hence AddChat lives and runs on your server/hosting in
 4. Customer support (<larecipe-badge type="black" circle icon="fa fa-lock"></larecipe-badge> Pro)
 5. Multi-user groups (<larecipe-badge type="black" circle icon="fa fa-lock"></larecipe-badge> Pro)
 
-and a lot more features coming up in **AddChat Pro** ⚡️
+and a lot more features available in in **AddChat Codeigniter Pro** ⚡️
 
 
 ## Why AddChat ?
@@ -137,11 +137,10 @@ AddChat is compatible with all languages and timezones. AddChat auto adapts and 
 
 **AddChat Pro Version** comes with **Commercial** license. Pro version is fully loaded with a lot of useful and exciting features.
 
-- **AddChat Codeigniter Pro**
+- **AddChat CodeIgniter Pro**
 
-    + [Live](https://addchat-codeigniter-pro.classiebit.com) - Coming soon
-    + [Purchase](https://classiebit.com/addchat-codeigniter-pro) - Subscribe now for notifications, will be soon available for Purchase here
-
+    + [Live](https://addchat-codeigniter-pro.classiebit.com) - Live preview available now.
+    + [Purchase](https://classiebit.com/addchat-codeigniter-pro) - Available for purchase now - Flat 50% Off (limited time offer)
 
 ---
 
